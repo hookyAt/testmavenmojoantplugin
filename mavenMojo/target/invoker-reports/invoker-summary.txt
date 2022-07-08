@@ -1,0 +1,1 @@
+failure-post-hook [lifecycle\pom.xml]  The post-build script did not succeed. D:\Users\hooky\workspaces\mojoTest\testMavenMojo\target\its\lifecycle\target\classes\README.txt (The system cannot find the path specified)

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde?>
+<target name="Eclipse 2019-03" sequenceNumber="1">
+  <locations>
+	<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+		<unit id="com.google.inject" version="0.0.0"/>
+		<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.cvs.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.ecf.core.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.ecf.filetransfer.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.ecf.provider.generic.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.egit.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.emf.mwe2.runtime.sdk.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.equinox.p2.discovery.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.gef.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.jdt.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.jgit.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.m2e.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.m2e.logback.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.m2e.sdk.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.pde.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.rcp.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.uml2.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.uml2.sdk.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.wst.common.fproj.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.wst.common_core.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.wst.common_ui.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.wst.server_adapters.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.wst.server_core.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.wst.server_ui.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.wst.xml_core.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.wst.xml_ui.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.xpand.sdk.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.xtend.lib" version="0.0.0"/>
+		<unit id="org.eclipse.xtext.xbase.lib" version="0.0.0"/>
+		<unit id="org.eclipse.xtend.lib.macro" version="0.0.0"/>
+		<unit id="org.eclipse.xsd.feature.group" version="0.0.0"/>
+		<unit id="org.slf4j.api" version="0.0.0"/>
+		<unit id="org.eclipse.xtend.sdk.feature.group" version="0.0.0"/>
+      <repository id="eclipse-photon" location="http://download.eclipse.org/releases/2019-03"/>
+    </location>
+  </locations>
+</target>

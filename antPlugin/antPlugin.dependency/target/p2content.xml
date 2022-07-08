@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='antPlugin.dependency' version='1.0.0.202207080939' singleton='false' generation='2'>
+    <update id='antPlugin.dependency' range='[0.0.0,1.0.0.202207080939)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Dependency'/>
+      <property name='maven-groupId' value='at.hooky'/>
+      <property name='maven-artifactId' value='antPlugin.dependency'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='antPlugin.dependency' version='1.0.0.202207080939'/>
+      <provided namespace='osgi.bundle' name='antPlugin.dependency' version='1.0.0.202207080939'/>
+      <provided namespace='java.package' name='at.hooky.dep' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='antPlugin.dependency' version='1.0.0.202207080939'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='1'>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=11))'>
+        <description>
+          antPlugin.dependency
+        </description>
+      </requiredProperties>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='antPlugin.dependency' version='1.0.0.202207080939'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: antPlugin.dependency&#xA;Bundle-Version: 1.0.0.202207080939&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='antPlugin.dependency.source' version='1.0.0.202207080939' singleton='false'>
+    <update id='antPlugin.dependency.source' range='[0.0.0,1.0.0.202207080939)' severity='0'/>
+    <properties size='10'>
+      <property name='df_LT.bundleVendor' value='unknown'/>
+      <property name='df_LT.bundleName' value='Dependency Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='at.hooky'/>
+      <property name='maven-artifactId' value='antPlugin.dependency'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='antPlugin.dependency.source' version='1.0.0.202207080939'/>
+      <provided namespace='osgi.bundle' name='antPlugin.dependency.source' version='1.0.0.202207080939'/>
+      <provided namespace='osgi.identity' name='antPlugin.dependency.source' version='1.0.0.202207080939'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='antPlugin.dependency.source' version='1.0.0.202207080939'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: antPlugin.dependency.source&#xA;Bundle-Version: 1.0.0.202207080939&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

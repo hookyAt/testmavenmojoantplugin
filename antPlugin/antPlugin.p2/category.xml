@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="antPlugin.feature_1.0.0.qualifier.jar" id="antPlugin.feature" version="1.0.0.qualifier">
+      <category name="antPlugin.category"/>
+   </feature>
+   <feature url="antPlugin.feature.source_1.0.0.qualifier.jar" id="antPlugin.feature.source" version="1.0.0.qualifier">
+      <category name="antPlugin.category"/>
+   </feature>
+   <category-def name="antPlugin.category" label="antPlugin Category">
+      <description>
+         antPlugin Category
+      </description>
+   </category-def>
+</site>
