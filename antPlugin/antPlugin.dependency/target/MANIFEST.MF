@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Dependency
-Bundle-SymbolicName: antPlugin.dependency
-Bundle-Version: 1.0.0.202207080939
-Automatic-Module-Name: antPlugin.dependency
-Bundle-RequiredExecutionEnvironment: JavaSE-11
-Export-Package: at.hooky.dep
-

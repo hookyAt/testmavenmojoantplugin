@@ -218,38 +218,6 @@
 			</plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>tycho-surefire-plugin</artifactId>
-				<configuration>
-					<failIfNoTests>false</failIfNoTests>
-					<useUIHarness>true</useUIHarness>
-					<useUIThread>true</useUIThread>
-					<!--<showEclipseLog>true</showEclipseLog> -->
-					<!--<testFailureIgnore>true</testFailureIgnore> -->
-					<argLine>${ui.test.vmargs}</argLine>
-					<jvmArgs>
-						<args>${ui.test.vmargs}</args>
-					</jvmArgs>
-					<bundleStartLevel>
-						<bundle>
-							<id>org.eclipse.equinox.launcher</id>
-							<level>4</level>
-							<autoStart>true</autoStart>
-						</bundle>
-					</bundleStartLevel>
-					<dependencies>
-						<dependency>
-							<type>p2-installable-unit</type>
-							<artifactId>org.eclipse.equinox.ds</artifactId>
-						</dependency>
-						<dependency>
-							<type>p2-installable-unit</type>
-							<artifactId>org.eclipse.equinox.event</artifactId>
-						</dependency>
-					</dependencies>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
 				<configuration>
 					<environments>

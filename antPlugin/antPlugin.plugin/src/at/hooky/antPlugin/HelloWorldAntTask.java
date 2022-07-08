@@ -11,6 +11,6 @@ public class HelloWorldAntTask extends Task {
 	@Override
 	public void execute() throws BuildException {
 		System.out.println("Hello World");
-		new SomeInfo();
+		System.out.println(new SomeInfo().toString());
 	}
 }
