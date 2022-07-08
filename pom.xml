@@ -10,7 +10,7 @@
 
 	<modules>
 		<module>antPlugin</module>
-		<module>testMavenMojo</module>
+		<module>mavenMojo</module>
 		<module>testMavenMojoAntPlugin</module>
 	</modules>
 

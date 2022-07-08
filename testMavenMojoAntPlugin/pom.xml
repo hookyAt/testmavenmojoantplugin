@@ -22,8 +22,8 @@
 			</plugin>
 			<plugin>
 				<groupId>at.hooky</groupId>
-				<artifactId>testMavenMojo</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<artifactId>mavenMojo</artifactId>
+				<version>1.0.0-SNAPSHOT</version>
 				<executions>
 					<execution>
 						<goals>

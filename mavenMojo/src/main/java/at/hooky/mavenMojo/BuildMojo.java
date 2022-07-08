@@ -1,4 +1,4 @@
-package at.hooky.testMavenMojo;
+package at.hooky.mavenMojo;
 
 import java.io.File;
 import java.io.IOException;

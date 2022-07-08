@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>at.hooky</groupId>
-	<artifactId>testMavenMojo</artifactId>
+	<artifactId>mavenMojo</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
 	<properties>
@@ -61,10 +61,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-plugin-plugin</artifactId>
 				<version>3.6.0</version>
-				<configuration>
-					<goalPrefix>testMavenMojo</goalPrefix>
-					<skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
-				</configuration>
+
 				<executions>
 					<execution>
 						<id>default-descriptor</id>
