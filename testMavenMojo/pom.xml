@@ -5,23 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>at.hooky</groupId>
 	<artifactId>testMavenMojo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-
-	<name>testMavenMojo</name>
-	<url>https://github.com/carlosvin/testMavenMojo</url>
-	<description>Example of custom Maven plugin overriding default lifecycle</description>
-
-	<developers>
-		<developer>
-			<email>carlosvin@gmail.com</email>
-			<name>Carlos Martin Sanchez</name>
-			<url>http://carlosvin.github.io</url>
-		</developer>
-	</developers>
-
-	<scm>
-		<developerConnection>scm:git:git@github.com:carlosvin/lifecycle-maven-plugin.git</developerConnection>
-	</scm>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
