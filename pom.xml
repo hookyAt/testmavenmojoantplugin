@@ -11,7 +11,8 @@
 	<modules>
 		<module>antPlugin</module>
 		<module>mavenMojo</module>
-		<module>testMavenMojoAntPlugin</module>
+		<!-- Run this extra -->
+		<!-- <module>testMavenMojoAntPlugin</module> -->
 	</modules>
 
 </project>

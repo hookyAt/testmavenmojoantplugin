@@ -120,7 +120,7 @@ public class BuildMojo extends AbstractMojo {
 		applicationsArgs.add("-application");
 		applicationsArgs.add("org.eclipse.ant.core.antRunner");
 		applicationsArgs.add("-buildfile");
-		applicationsArgs.add("\"" + getPathToAntScript() + "\"");
+		applicationsArgs.add(getPathToAntScript());
 		applicationsArgs.add(antTarget);
 		// default values for parameter jvmArgs
 		jvmArgs.add("-Xmx1024m");
@@ -156,8 +156,8 @@ public class BuildMojo extends AbstractMojo {
 
 	private String getPathToAntScript() {
 		try {
-			antScriptPath = project.getBuild().getDirectory() + "/importProjects.xml";
-			Files.deleteIfExists(Paths.get(antScriptPath));
+			Path path = Paths.get(project.getBuild().getDirectory() + "/importProjects.xml").toAbsolutePath();
+			Files.deleteIfExists(path);
 			FileUtils.forceMkdir(new File(project.getBuild().getDirectory()));
 			List<String> lines = new ArrayList<>();
 			lines.add("<project name=\"importProjects\" default=\"import\">");
@@ -171,11 +171,11 @@ public class BuildMojo extends AbstractMojo {
 
 			lines.add("  </target>");
 			lines.add("</project>");
-			Files.write(Paths.get(antScriptPath), lines, StandardOpenOption.CREATE, StandardOpenOption.WRITE);
+			Files.write(path, lines, StandardOpenOption.CREATE, StandardOpenOption.WRITE);
+			antScriptPath = path.toString();
 		} catch (IOException e) {
 			getLog().error("Can't create ant script in " + antScriptPath, e);
 		}
-
 		return antScriptPath;
 	}
 
